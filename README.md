@@ -1,4 +1,4 @@
-# Deep-Reinforcmenet-Learning-with-Atari
+# Deep-Reinforcement-Learning-with-Atari
 
 Hey everyone!
 Here I will be showing all my code for my project on creating an Agent to play atari games.

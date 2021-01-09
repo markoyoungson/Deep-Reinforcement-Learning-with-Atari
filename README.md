@@ -20,7 +20,7 @@ If you want a more in depth break down of the code and reasoning behind it check
 * [Setup](#setup)
 
 ## General info
-This project was inspired by the research paper (Human Level Control Through Deep Reinforcement Learning)[https://drive.google.com/viewerng/viewer?url=https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf] written by Google DeepMind in 2015
+This project was inspired by the research paper [Human Level Control Through Deep Reinforcement Learning](https://drive.google.com/viewerng/viewer?url=https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf) written by Google DeepMind in 2015
 	
 ## Technologies
 Project is created with:

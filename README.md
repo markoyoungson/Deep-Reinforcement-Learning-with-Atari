@@ -17,7 +17,7 @@ If you want a more in depth break down of the code and reasoning behind it check
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [What is Deep RL](#What-is-Deep-RL)
 
 ## General info
 This project was inspired by the research paper [Human Level Control Through Deep Reinforcement Learning](https://drive.google.com/viewerng/viewer?url=https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf) written by Google DeepMind in 2015
@@ -28,7 +28,7 @@ Project is created with:
 * Pytorch version: 1.0.0
 * numpy: 1.16.4
 	
-## Setup
+## What is Deep RL
 To run this project, install it locally using npm:
 
 ```

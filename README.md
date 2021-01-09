@@ -17,21 +17,24 @@ If you want a more in depth break down of the code and reasoning behind it check
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [What is Deep RL](#What-is-Deep-RL)
+* [What is Deep RL?](#What-is-Deep-RL?)
 
 ## General info
 This project was inspired by the research paper [Human Level Control Through Deep Reinforcement Learning](https://drive.google.com/viewerng/viewer?url=https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf) written by Google DeepMind in 2015
+	
+	
 	
 ## Technologies
 Project is created with:
 * Python version: 3.6.7
 * Pytorch version: 1.0.0
 * numpy: 1.16.4
-	
-## What is Deep RL
-To run this project, install it locally using npm:
 
-```
-$ cd ../lorem
-$ npm install
-$ npm start
+
+
+## What is Deep RL?
+Before we get into any of the details, let me first explain what is going on.
+
+The goal of an RL problem is to create a agent that maximizes some reward in an environment. In this case we are trying to get the agent to maximize the amount of points it can get in Pong(Atari Games).
+
+Deep Reinforcment learning is the combination of using neural networks to predict 

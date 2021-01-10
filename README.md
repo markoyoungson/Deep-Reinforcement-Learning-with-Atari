@@ -45,12 +45,12 @@ Deep Reinforcment learning is the combination of using neural networks to predic
 
 My Code is broken down into 5 main sections:
 
-### The Utils File
+#### The Utils File
 
-### The Replay Memory
+#### The Replay Memory
 
-### The Neural Net
+#### The Neural Net
 
-### The Agent
+#### The Agent
 
-### The Main File
+#### The Main File

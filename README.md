@@ -29,7 +29,7 @@ This project was inspired by the research paper [Human Level Control Through Dee
 Project is created with:
 * Python version: 3.6.7
 * Pytorch version: 1.0.0
-* numpy: 1.16.4
+* Numpy: 1.16.4
 
 
 
@@ -38,7 +38,9 @@ Before we get into any of the details, let me first explain what is going on.
 
 The goal of an RL problem is to create a agent that maximizes some reward in an environment. In this case we are trying to get the agent to maximize the amount of points it can get in Pong(Atari Games). The environment is the game that the agent is playing, and to receive rewards it has to take an action. There are many different algorithmns that can get the agent to maximize its long term reward. A very common example would be Q learning. In this example after every action the agent takes in its environment, it receives a reward and a new state, and it stores all this information in what is called a Q table. After thousands of iterations the agent will have mapped out all the possible actions, and in turn all of the rewards. The agent then can take the action that gives the agent the greates reward. 
 
-Deep Reinforcment learning is the combination of using neural networks to predict the value of each action the agent can take in a given state. So in pong the options would be moving the paddle to the right, to the left, 
+The problem with that approach is that you have to store all of the agents experiences in a Q-table. So what Deep Reinforcment learning does is that instead of mapping out all of the experineces, you use a convolutional neraual network to take in the image pixels and output the value that each action would give the agent. So in pong the different actions would be moving the paddle up, down and staying in the same place. The agent than takes the action with the highest value in every state.
+
+Like I mentioned before, I have a much more in depth breakdown of this in my article that is linked above.
 
 
 ## My Code Breakdown

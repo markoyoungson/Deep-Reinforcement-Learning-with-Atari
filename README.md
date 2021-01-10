@@ -45,12 +45,12 @@ Deep Reinforcment learning is the combination of using neural networks to predic
 
 My Code is broken down into 5 main sections:
 
-* The Utils File
+* The Utils File: Here we deal with the pre-processing the image data
 
-* The Replay Memory
+* The Replay Memory: In this file we store the agents past experiences
 
-* The Neural Net
+* The Neural Net: This file has the Convolutional Neural Network that takes in the image data and outputs the value for each action in a state
 
-* The Agent
+* The Agent: In this file you initailize the agents parameters, and define the learn function, so that the agent is able to learn from its experiences
 
-* The Main File
+* The Main File: Finanlly, we bring everything together
